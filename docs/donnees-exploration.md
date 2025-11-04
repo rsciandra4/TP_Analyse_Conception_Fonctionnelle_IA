@@ -1,3 +1,5 @@
+*Auteurs : Romain SCIANDRA & Omar MOSTAFA*  
+---
 # Lecture du profil CSV  
 **Fichier source :** `descriptif_donnee.csv`  
 **Nombre total de colonnes :** 16  

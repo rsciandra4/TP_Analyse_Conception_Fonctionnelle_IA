@@ -1,3 +1,5 @@
+*Auteurs : Romain SCIANDRA & Omar MOSTAFA*  
+---
 # Glossaire (Ubiquitous Language – V2)
 
 <br>
