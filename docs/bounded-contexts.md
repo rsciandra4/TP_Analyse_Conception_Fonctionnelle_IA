@@ -1,5 +1,4 @@
 # Bounded Contexts — Partie 2  
-**Projet ESGI M2 — DDD : Conception du Domaine Métier**  
 *Auteurs : Romain SCIANDRA & Omar MOSTAFA*  
 
 ---

@@ -1,5 +1,4 @@
 # Gaps Analysis — Partie 4  
-**Projet ESGI M2 — DDD & IA**  
 *Auteurs : Romain SCIANDRA & Omar MOSTAFA*  
 
 ---

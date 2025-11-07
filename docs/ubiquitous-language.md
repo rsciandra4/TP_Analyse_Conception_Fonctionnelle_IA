@@ -1,6 +1,6 @@
 *Auteurs : Romain SCIANDRA & Omar MOSTAFA*  
 ---
-# Glossaire (Ubiquitous Language – V2)
+# Glossaire (Ubiquitous Language – V2) - Partie 2 (remplace la V1 de Partie 1)
 
 <br>
 

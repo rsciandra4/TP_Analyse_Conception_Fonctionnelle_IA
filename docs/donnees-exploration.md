@@ -1,3 +1,4 @@
+# Exploration de donnees - Partie 1
 *Auteurs : Romain SCIANDRA & Omar MOSTAFA*  
 ---
 # Lecture du profil CSV  

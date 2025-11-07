@@ -1,6 +1,4 @@
-# Schéma de données — Base dédiée (Partie 4, version finale)
-
-**Projet ESGI M2 — DDD & IA**  
+# Schéma de données — Base dédiée - Partie 4
 *Auteurs : Romain SCIANDRA & Omar MOSTAFA*  
 
 ---
