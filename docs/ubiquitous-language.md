@@ -6,6 +6,7 @@
 
 | **Champ**                   | **Définition métier**                                                                  | **Exemple concret**                              | **Bounded Context (BC)** |
 | --------------------------- | -------------------------------------------------------------------------------------- | ------------------------------------------------ | ------------------------- |
+| **Professionnel**           | Entreprise qui utilise l'application pour gérer ses clients et les prestations         | `Entreprise Paysagiste`                          | Générique                 |
 | **Client**                  | Particulier ou entreprise qui demande une prestation.                                  | `Particulier : Jean Dupont`                      | BC Client                 |
 | **Firstname client**        | Prénom du client tel qu’indiqué dans le dossier client ou sur le devis/facture.        | `Jean`                                           | BC Client                 |
 | **Lastname client**         | Nom du client tel qu’indiqué dans le dossier client ou sur le devis/facture.           | `Dupont`                                         | BC Client                 |
@@ -21,7 +22,7 @@
 | **Devis accepté**           | Indique si le devis a été accepté par le client (statut Oui/Non).                      | `Oui`                                            | BC Devis                  |
 | **Devis modifié**           | Indique si le devis a été modifié par le commercial.                                   | `Non`                                            | BC Devis                  |
 | **Date signature devis**    | Date à laquelle le client a signé le devis.                                            | `15/03/2025`                                     | BC Devis                  |
-| **Commission**              | Pourcentage ou montant attribué à un commercial pour la vente.                         | `5 %`                                            |  BC Facturation |
+| **Commission**              | Pourcentage ou montant attribué à un commercial pour la vente.                         | `5 %`                                            | BC Facturation |
 | **Montant HT**              | Montant total hors taxes du devis ou de la facture.                                    | `2 500,00 €`                                     | BC Devis  |
 | **Taux TVA**                | Taux de taxe sur la valeur ajoutée appliqué au montant HT.                             | `20 %`                                           | BC Facturation            |
 | **Montant TTC**             | Montant total toutes taxes comprises, après application de la TVA.                     | `3 000,00 €`                                     | BC Facturation            |
