@@ -49,52 +49,52 @@
 
     "facture_id": {
       "type": "integer",
-      "description": "Identifiant technique de la facture (factures.id)."
+      "description": "Identifiant technique de la facture."
     },
     "devis_id": {
       "type": "integer",
-      "description": "Identifiant du devis associé (factures.devis_id → devis.id)."
+      "description": "Identifiant du devis associé."
     },
     "client_id": {
       "type": "integer",
-      "description": "Identifiant du client (devis.client_id → clients.id)."
+      "description": "Identifiant du client."
     },
 
     "date_facture": {
       "type": "string",
       "format": "date",
-      "description": "Date de la facture (factures.date_facture)."
+      "description": "Date de la facture."
     },
     "montant_ht": {
       "type": "number",
-      "description": "Montant hors taxes de la facture (factures.montant_ht)."
+      "description": "Montant hors taxes de la facture."
     },
     "tva": {
       "type": "number",
-      "description": "Taux de TVA appliqué à la facture (factures.tva)."
+      "description": "Taux de TVA appliqué à la facture."
     },
     "montant_ttc": {
       "type": "number",
-      "description": "Montant toutes taxes comprises de la facture (factures.montant_ttc)."
+      "description": "Montant toutes taxes comprises de la facture."
     },
     "statut_facture": {
       "type": "string",
       "enum": ["Émise", "Payée", "En retard", "Annulée"],
-      "description": "Statut de la facture (factures.statut_facture)."
+      "description": "Statut de la facture."
     },
 
     "type_client": {
       "type": "string",
       "enum": ["B2B", "B2C"],
-      "description": "Type de client (clients.type_client)."
+      "description": "Type de client."
     },
     "type_prestation": {
       "type": "string",
-      "description": "Type de prestation principale (prestations.type_prestation, via devis.prestation_id)."
+      "description": "Type de prestation principale."
     },
     "sous_type_prestation": {
       "type": "string",
-      "description": "Sous-type de prestation (prestations.sous_type_prestation)."
+      "description": "Sous-type de prestation."
     },
 
     "correlation_id": {
@@ -178,9 +178,7 @@ Tables utilisées (schéma dédié) :
 
 ---
 
-### 2.3. Exemple de « schema » logique de la table d’export
-
-*(forme lisible pour échange Data / IA)*
+### 2.3. « schema » JSON de la table d’export
 
 ```json
 {
@@ -215,18 +213,4 @@ Tables utilisées (schéma dédié) :
   ]
 }
 ```
-
----
-
-## 3. Résumé
-
-* L’événement **`FactureÉmise`** est contracté via un **JSON Schema strict**, pour l’intégration entre Facturation, Paiement et IA.
-* L’**export tabulaire** `dataset_delai_paiement` définit clairement :
-
-  * le **grain** (1 ligne = 1 facture),
-  * la **cible** ML (`delai_paiement_jours`),
-  * et les **colonnes** (id, dates, montants, type_client, type/sous-type de prestation, statut…).
-
-Ces contrats pourront être directement repris comme **spécification de pipeline** (ETL/ELT) entre la base dédiée et les notebooks / jobs d’entraînement de modèles.
-
 ---

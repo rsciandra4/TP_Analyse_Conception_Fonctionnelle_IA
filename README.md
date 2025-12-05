@@ -19,6 +19,7 @@ TP_Analyse_Conception_Fonctionnelle_IA/
     └── uml-aggregats.png             ← Livrable partie 3
     └── schema-donnees.md             ← Livrable partie 4
     └── gaps-analysis.md              ← Livrable partie 4
+    └── contracts.md                  ← Livrable partie 5
 ```
 
 > Tous les fichiers sont regroupés dans le dossier `docs/`.
