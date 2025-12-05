@@ -6,7 +6,6 @@
 * **MOSTAFA Omar**
 
 ## Structure du dépôt
-**Partie 1 de TP**
 ```
 TP_Analyse_Conception_Fonctionnelle_IA/
 └── docs/
@@ -22,4 +21,4 @@ TP_Analyse_Conception_Fonctionnelle_IA/
     └── gaps-analysis.md              ← Livrable partie 4
 ```
 
-> Tous les fichiers utiles sont regroupés dans le dossier `docs/`.
+> Tous les fichiers sont regroupés dans le dossier `docs/`.
