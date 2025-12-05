@@ -20,6 +20,7 @@ TP_Analyse_Conception_Fonctionnelle_IA/
     └── schema-donnees.md             ← Livrable partie 4
     └── gaps-analysis.md              ← Livrable partie 4
     └── contracts.md                  ← Livrable partie 5
+    └── features-ml.md                ← Livrable partie 5
 ```
 
 > Tous les fichiers sont regroupés dans le dossier `docs/`.

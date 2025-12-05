@@ -96,7 +96,6 @@ Pour chaque feature :
 ---
 
 # 2. Top 5 features à collecter pour améliorer le modèle IA  
-*(données absentes du schéma actuel, mais extrêmement utiles)*
 
 ---
 
